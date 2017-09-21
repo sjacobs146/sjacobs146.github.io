@@ -1,14 +1,170 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Example</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Susan Jacobs</title>
 
-      <link rel="stylesheet" type="text/css" href="main.css">
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
-    </head>
-    <body class="container-fluid">
-      <h1> Portfolio Template </h1>
-    </body>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="index.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <!-- <a id="logo-container" href="#" class="brand-logo">Logo</a> -->
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">My Skills</a></li>
+        <li><a href="#">My Projects</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">My Skills</a></li>
+        <li><a href="#">My Projects</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Susan Jacobs</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">I'm a Web Developer in training with extensive software engineering management and back-end development
+experience. Experienced in Agile / Lean software development processes including Scrum and Kanban. </h5>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>My Skills</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">laptop</i></h2>
+            <h5 class="center">Front End</h5>
+            <ul class="center light">
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+              <li>Handlebars</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <!-- <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p> -->
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">cloud</i></h2>
+            <h5 class="center">Back End</h5>
+            <ul class="center light">
+              <li>Ruby</li>
+              <li>Rails</li>
+              <li>Java</li>
+              <li>Spring</li>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Process Management</h5>
+            <ul class="center light">
+              <li>Scrum</li>
+              <li>Kanban</li>
+              <li>Jira</li>
+              <li>Rally</li>
+              <li>Git, SVN, ClearCase</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Resume</h4>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Not sure what to put here</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Me</h4>
+          <h5><a href="mailto:susanjacobs@verizon.net">susanjacobs@verizon.net</a></h5>
+          <h5>mobile: 508-596-5124</h5>
+          <a href="https://www.linkedin.com/in/sjacobs146/" class="fa fa-linkedin"></a>
+          <a href="https://www.github.com/sjacobs146/" class="fa fa-github"></a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  </body>
 </html>
