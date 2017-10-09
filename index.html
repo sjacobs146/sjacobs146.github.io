@@ -22,10 +22,10 @@
     <div class="nav-wrapper container">
       <!-- <a id="logo-container" href="#" class="brand-logo">Logo</a> -->
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">My Skills</a></li>
-        <li><a href="#">My Projects</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -42,16 +42,20 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Susan Jacobs</h1>
+        <h1 class="header center teal-text text-darken-4">Susan Jacobs</h1>
         <div class="row center">
-          <h5 class="header col s12 light">I'm a Web Developer in training with extensive software engineering management and back-end development
+          <h5 class="header col s12 light">I'm a Web Developer in training with extensive software engineering management and server-side development
 experience. Experienced in Agile / Lean software development processes including Scrum and Kanban. </h5>
         </div>
-        <br><br>
-
+        <div class="row center">
+          <div class="col s12">
+            <img src="SusanProfilePhoto.jpg" alt="Susan Jacobs" class="circle" height=400 width=300 >
+          </div>
+      </div>
+        <br><br><br><br>
       </div>
     </div>
-    <div class="parallax"><img src="erol-ahmed-80094.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="teal-background.jpg" alt="background img 1"></div>
   </div>
 
 
@@ -60,7 +64,7 @@ experience. Experienced in Agile / Lean software development processes including
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 center">
+        <div class="col s12 center" id="skills">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>My Skills</h4>
         </div>
@@ -118,24 +122,82 @@ experience. Experienced in Agile / Lean software development processes including
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row center">
-          <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+        <div class="row center" id="about">
+          <br><br>
+          <h1 class="header center light">About Me</h1>
+          <div class="row center">
+            <h5 class="header col s12 light left-align">I am a Web Developer getting back to what I love doing - coding. At my most recent job, I began as a
+            Principal Software Engineer, and transitioned to an Engineering Manager role. I enjoy managing teams, but I found that I no longer had the time to
+            continue coding too. I missed the feeling I got when I solved a particularly difficult problem, and the satisfaction I felt when a
+            feature that I developed improved our users' experience in some way.
+          </h5>
+          <h5 class="header col s12 light left-align">When the opportunity arose for me to leave my job and take some time
+            for myself, I decided to attend the Web Development Immersive class at General Assembly. I am very interested in JavaScript.  It is a challenging language to learn, but it allows us to develop
+            browser-based applications that are interactive and fun to use. The effort it takes to learn to write good JavaScript code is well worth it.
+            I am bringing my computer science background, extensive software development experience, and commitment to writing high-quality, easily
+            maintainable code to the world of JavaScript and Web Development.
+          </h5>
+          </div>
+          <br><br>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="averie-woodard-111832.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="sven-scheuermeier-108248.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
     <div class="section">
 
       <div class="row">
-        <div class="col s12 center">
+        <div class="col s12 center" id="projects">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>My Projects</h4>
         </div>
       </div>
-
+      <div class="row">
+        <div class="col s4 m4">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="tic-tac-toe.png">
+            </div>
+            <div class="card-content">
+              <p>Basic tic-tac-toe game written in JavaScript with connections to an API to save and retrieve old games.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://sjacobs146.github.io/tic-tac-toe/index.html" target="_blank">Play</a>
+              <a href="https://github.com/sjacobs146/tic-tac-toe" target="_blank">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="recipe-tracker.png">
+            </div>
+            <div class="card-content">
+              <p>Full-stack application to add, edit, search and delete recipes. JavaScript front-end with Ruby-on-Rails and Postgres back-end.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://sjacobs146.github.io/recipe-tracker/" target="_blank">Recipes</a>
+              <a href="https://github.com/sjacobs146/recipe-api" target="_blank">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 m4">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="code-sample.png">
+            </div>
+            <div class="card-content">
+              <p>Project 3</p>
+            </div>
+            <div class="card-action">
+              <a href=# target="_blank">Project 3</a>
+              <a href=# target="_blank">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -154,13 +216,13 @@ experience. Experienced in Agile / Lean software development processes including
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
-        <div class="col s12 center">
+        <div class="col s12 center" id="contact-me">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Me</h4>
-          <h5><a href="mailto:susanjacobs@verizon.net">susanjacobs@verizon.net</a></h5>
+          <h5><a href="mailto:susanjacobs@verizon.net" target="_blank">susanjacobs@verizon.net</a></h5>
           <h5>mobile: 508-596-5124</h5>
-          <a href="https://www.linkedin.com/in/sjacobs146/" class="fa fa-linkedin"></a>
-          <a href="https://www.github.com/sjacobs146/" class="fa fa-github"></a>
+          <a href="https://www.linkedin.com/in/sjacobs146/" class="fa fa-linkedin" target="_blank"></a>
+          <a href="https://www.github.com/sjacobs146/" class="fa fa-github" target="_blank"></a>
         </div>
       </div>
 
